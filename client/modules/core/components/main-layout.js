@@ -8,9 +8,6 @@ const Layout = ({content}) => (
     <div>
       {content}
     </div>
-    <footer>
-      <small>Built for learning purposes.</small>
-    </footer>
   </div>
 );
 

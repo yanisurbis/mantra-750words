@@ -10,8 +10,7 @@ const composer = ({context}, onData) => {
 
 const depsMapper = function (context, actions) {
   return {
-    grow: actions.line.grow,
-    shrink: actions.line.shrink,
+    inc: actions.button.inc,
     context
   }
 }
